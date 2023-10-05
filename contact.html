@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="style.css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <div class="center-container">
+            <form>
+
+<div class="titel">
+                <h1>Contactformulier</h1>
+                </div>
+                <div class="naam">
+
+                    <label for="first-name">Naam:</label>
+                    <input type="text" id="first-name" name="first-name" required placeholder="John">
+
+                </div>
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="studentnummer@hr.nl">
+                </div>
+                <div class="woonplaats">
+
+                    <label for="woonplaats">Woonplaats:</label>
+                    <input type="text" id="woonplaats" name="woonplaats" required placeholder="Voer uw woonplaats in">
+                </div>
+                <div class="datum">
+                    <label for="birthdate">Datum:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+                <div class="stuurdocent">
+
+                    <label for="stuurdocent">Verstuur naar:</label>
+                    <select id="stuurdocent" name="stuurdocent" required>
+                        <option value="" disabled selected>Kies docent...</option>
+                        <option value="Antwan">Antwan</option>
+                        <option value="Bas">Bas</option>
+                        <option value="Erik">Erik</option>
+                        <option value="Martijn">Martijn</option>
+                    </select>
+
+                </div>
+
+                <div class="labal">
+                    <label for="labelcategorie">Categorie:</label>
+                    <div class="alg">
+                        <input type="radio" id="algemeen" name="categorie" value="algemeen">
+                        <label for="algemeen">Algemeen</label>
+                    </div>
+                    <div class="prog">
+                        <input type="radio" id="Programmeren" name="categorie" value="programmeren">
+                        <label for="programmeren">Programmeren</label>
+                    </div>
+                    <div class="cle">
+
+                        <input type="radio" id="CLE" name="categorie" value="CLE">
+                        <label for="CLE">CLE</label>
+                    </div>
+                </div>
+
+                <div class="jouwvraag">
+                    <label for="Jouw-vraag:">Jouw vraag</label>
+                    <textarea id="Jouw-vraag" name="Jouw-vraag" rows="4" cols="50">
+                </textarea>
+                </div>
+
+                <div class="akkoordgaan">
+                    <input type="checkbox" id="Akkoord" name="Akkoord" value="Akkoord" required>
+                    <label for="Akkoord">Ik ga akkoord met de algemende voorwaarden</label>
+                </div>
+                <button type="submit">Verstuur e-mail</button>
+
+                <p>*verplichte velden</p>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
